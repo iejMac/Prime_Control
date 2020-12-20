@@ -25,5 +25,5 @@ The reason why humans can learn to drive with a small amount of driving data is 
 ### Safe steering angle update rule:
 In order to make driving much more safe and smooth I decay the current angle and update it with a fraction of the predicted angle:
 
-current_angle = $\alpha A$ * current_angle + ( 1 - $\alpha A$ ) * predicted_angle  | $\alpha A$ \in [0.7, 0.9]
+current_angle = a * current_angle + (1 - a) * predicted_angle        | where 0.7 < a < 0.9
 
