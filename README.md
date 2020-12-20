@@ -27,3 +27,5 @@ In order to make driving much more safe and smooth I decay the current angle and
 
 current_angle = a * current_angle + (1 - a) * predicted_angle        | where 0.7 < a < 0.9
 
+### Progress:
+Model seems to be good at controlling the steering wheel. Currently working on the the hardware aspect so I can use the model.
