@@ -10,7 +10,7 @@ https://github.com/udacity/self-driving-car/tree/master/datasets
 1. downsize to (70, 160)
 2. RGB to grayscale
 
-### Auxilary pretraining idea (not currently in use):
+### Auxiliary pretraining idea (not currently in use):
 The reason why humans can learn to drive with a small amount of driving data is because we utilize information from other parts of our lives. This is why self-driving models that are pre-trained on datasets like ImageNet tend to be more successful on smaller amounts of data. What I wanted to try is to pre-train a model on a task that is maybe a little more related to driving than arbitrary image classification. The idea is to develop 2 stages of pre-training with increasingly complex tasks and data that can be labeled easily
 
 ##### Stage 1:
