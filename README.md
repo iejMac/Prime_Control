@@ -2,9 +2,9 @@
 Level 1 Self Driving
 
 ### Data sources:
-https://github.com/commaai/comma2k19
-https://research.comma.ai/
-https://github.com/udacity/self-driving-car/tree/master/datasets
+- https://github.com/commaai/comma2k19
+- https://research.comma.ai/
+- https://github.com/udacity/self-driving-car/tree/master/datasets
 
 ### Data transformations:
 1. downsize to (70, 160)
